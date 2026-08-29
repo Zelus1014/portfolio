@@ -4,23 +4,20 @@
 <head>
 
 <meta charset="UTF-8">
-
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>Quizzes and Activities | Redgie Y. Blanco</title>
 
-<link rel="stylesheet"
-href="css/style.css">
+<link rel="stylesheet" href="css/style.css">
 
 <link rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 
 <link rel="preconnect"
-href="https://fonts.gstatic.com" crossorigin>
+href="https://fonts.gstatic.com"
+crossorigin>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
 rel="stylesheet">
@@ -37,35 +34,24 @@ rel="stylesheet">
 
 <div class="container nav-container">
 
-<a href="index.html"
-class="nav-logo">
-
+<a href="index.html" class="nav-logo">
 RB
-
 </a>
 
 
 <ul class="nav-menu">
 
 <li>
-<a href="index.html"
-class="nav-link">
-
+<a href="index.html" class="nav-link">
 Home
-
 </a>
 </li>
-
 
 <li>
-<a href="index.html#projects"
-class="nav-link">
-
+<a href="index.html#projects" class="nav-link">
 Projects
-
 </a>
 </li>
-
 
 </ul>
 
@@ -83,22 +69,18 @@ Projects
 
 
 <h1 class="section-title">
-
 Quizzes and Activities
-
 </h1>
 
 
 <p class="contact-subtitle">
-
 This is where I will place my quizzes and academic activities.
 More content will be added here as I complete them.
-
 </p>
 
 
 
-<!-- QUIZ -->
+<!-- QUIZ CARD -->
 
 <div class="project-card">
 
@@ -106,28 +88,22 @@ More content will be added here as I complete them.
 
 
 <span class="project-badge">
-
 Quiz
-
 </span>
 
 
 <h2 class="project-title">
-
-Quiz
-
+Emerging Technologies Quiz
 </h2>
 
 
 <p class="project-desc">
-
-This section contains my academic quizzes.
-The quiz content will be added here.
-
+A quiz based on different emerging technologies and concepts
+covered in the academic activity.
 </p>
 
 
-<a href="#"
+<a href="#quiz"
 class="btn btn-outline project-btn">
 
 View Quiz
@@ -143,7 +119,7 @@ View Quiz
 
 
 
-<!-- ACTIVITIES -->
+<!-- ACTIVITY CARD -->
 
 <div class="project-card">
 
@@ -151,25 +127,427 @@ View Quiz
 
 
 <span class="project-badge">
-
 Activities
-
 </span>
 
 
 <h2 class="project-title">
-
 Activities
-
 </h2>
 
 
 <p class="project-desc">
-
 This section will contain my other academic activities.
 There are currently no activities available.
-
 </p>
+
+
+</div>
+
+</div>
+
+
+
+<!-- ACTUAL QUIZ -->
+
+<div class="project-card quiz-section"
+id="quiz">
+
+<div class="project-card-content">
+
+
+<span class="project-badge">
+Quiz
+</span>
+
+
+<h2 class="project-title">
+Emerging Technologies Quiz
+</h2>
+
+
+<p class="project-desc">
+Choose the best answer for each question.
+</p>
+
+
+
+<form id="quizForm">
+
+
+<!-- QUESTION 1 -->
+
+<div class="quiz-question">
+
+<h3>
+1. What is Augmented Reality?
+</h3>
+
+
+<label>
+<input type="radio" name="q1" value="a">
+A technology that adds digital information to the real world
+</label>
+
+
+<label>
+<input type="radio" name="q1" value="b">
+A technology that completely replaces the real world
+</label>
+
+
+<label>
+<input type="radio" name="q1" value="c">
+A type of computer hardware
+</label>
+
+
+<label>
+<input type="radio" name="q1" value="d">
+A type of database
+</label>
+
+</div>
+
+
+
+<!-- QUESTION 2 -->
+
+<div class="quiz-question">
+
+<h3>
+2. What is Machine Learning?
+</h3>
+
+
+<label>
+<input type="radio" name="q2" value="a">
+A method of manually programming every possible answer
+</label>
+
+
+<label>
+<input type="radio" name="q2" value="b">
+A type of computer monitor
+</label>
+
+
+<label>
+<input type="radio" name="q2" value="c">
+A method where computers learn patterns from data
+</label>
+
+
+<label>
+<input type="radio" name="q2" value="d">
+A type of internet connection
+</label>
+
+</div>
+
+
+
+<!-- QUESTION 3 -->
+
+<div class="quiz-question">
+
+<h3>
+3. What is Quantum Computing?
+</h3>
+
+
+<label>
+<input type="radio" name="q3" value="a">
+Computing that only uses traditional transistors
+</label>
+
+
+<label>
+<input type="radio" name="q3" value="b">
+Computing that uses principles of quantum mechanics
+</label>
+
+
+<label>
+<input type="radio" name="q3" value="c">
+A type of social media
+</label>
+
+
+<label>
+<input type="radio" name="q3" value="d">
+A type of programming language
+</label>
+
+</div>
+
+
+
+<!-- QUESTION 4 -->
+
+<div class="quiz-question">
+
+<h3>
+4. What does IoT stand for?
+</h3>
+
+
+<label>
+<input type="radio" name="q4" value="a">
+Internet of Technology
+</label>
+
+
+<label>
+<input type="radio" name="q4" value="b">
+Internet of Things
+</label>
+
+
+<label>
+<input type="radio" name="q4" value="c">
+Information of Technology
+</label>
+
+
+<label>
+<input type="radio" name="q4" value="d">
+Information on Things
+</label>
+
+</div>
+
+
+
+<!-- QUESTION 5 -->
+
+<div class="quiz-question">
+
+<h3>
+5. What is Artificial Intelligence?
+</h3>
+
+
+<label>
+<input type="radio" name="q5" value="a">
+Technology designed to perform tasks that normally require human intelligence
+</label>
+
+
+<label>
+<input type="radio" name="q5" value="b">
+A type of computer cable
+</label>
+
+
+<label>
+<input type="radio" name="q5" value="c">
+A type of keyboard
+</label>
+
+
+<label>
+<input type="radio" name="q5" value="d">
+A type of storage device
+</label>
+
+</div>
+
+
+
+<!-- QUESTION 6 -->
+
+<div class="quiz-question">
+
+<h3>
+6. What is Industry 4.0 mainly associated with?
+</h3>
+
+
+<label>
+<input type="radio" name="q6" value="a">
+Modern digital technologies and smart manufacturing
+</label>
+
+
+<label>
+<input type="radio" name="q6" value="b">
+Handwritten documents
+</label>
+
+
+<label>
+<input type="radio" name="q6" value="c">
+Traditional farming only
+</label>
+
+
+<label>
+<input type="radio" name="q6" value="d">
+Paper-based communication
+</label>
+
+</div>
+
+
+
+<!-- QUESTION 7 -->
+
+<div class="quiz-question">
+
+<h3>
+7. What is a quantum computer based on?
+</h3>
+
+
+<label>
+<input type="radio" name="q7" value="a">
+Quantum bits called qubits
+</label>
+
+
+<label>
+<input type="radio" name="q7" value="b">
+Only mechanical gears
+</label>
+
+
+<label>
+<input type="radio" name="q7" value="c">
+Paper cards
+</label>
+
+
+<label>
+<input type="radio" name="q7" value="d">
+Analog clocks
+</label>
+
+</div>
+
+
+
+<!-- QUESTION 8 -->
+
+<div class="quiz-question">
+
+<h3>
+8. What does uncertainty mean in a situation?
+</h3>
+
+
+<label>
+<input type="radio" name="q8" value="a">
+Having complete knowledge of everything
+</label>
+
+
+<label>
+<input type="radio" name="q8" value="b">
+Not being completely sure about an outcome
+</label>
+
+
+<label>
+<input type="radio" name="q8" value="c">
+Having no information at all
+</label>
+
+
+<label>
+<input type="radio" name="q8" value="d">
+Having multiple computers
+</label>
+
+</div>
+
+
+
+<!-- QUESTION 9 -->
+
+<div class="quiz-question">
+
+<h3>
+9. What does ambiguity refer to?
+</h3>
+
+
+<label>
+<input type="radio" name="q9" value="a">
+A situation with only one possible meaning
+</label>
+
+
+<label>
+<input type="radio" name="q9" value="b">
+A situation where something can have more than one meaning
+</label>
+
+
+<label>
+<input type="radio" name="q9" value="c">
+A type of computer program
+</label>
+
+
+<label>
+<input type="radio" name="q9" value="d">
+A type of hardware
+</label>
+
+</div>
+
+
+
+<!-- QUESTION 10 -->
+
+<div class="quiz-question">
+
+<h3>
+10. Which technology allows devices to communicate through the internet?
+</h3>
+
+
+<label>
+<input type="radio" name="q10" value="a">
+Internet of Things
+</label>
+
+
+<label>
+<input type="radio" name="q10" value="b">
+Quantum Mechanics
+</label>
+
+
+<label>
+<input type="radio" name="q10" value="c">
+Artificial Intelligence
+</label>
+
+
+<label>
+<input type="radio" name="q10" value="d">
+Augmented Reality
+</label>
+
+</div>
+
+
+
+<button type="button"
+class="btn btn-primary"
+onclick="checkQuiz()">
+
+Submit Quiz
+
+</button>
+
+
+<p id="result"></p>
+
+
+</form>
 
 
 </div>
@@ -194,8 +572,7 @@ There are currently no activities available.
 
 <a href="https://www.facebook.com/redgie.blanco.9"
 target="_blank"
-rel="noopener noreferrer"
-aria-label="Facebook">
+rel="noopener noreferrer">
 
 <i class="fab fa-facebook-f"></i>
 
@@ -204,8 +581,7 @@ aria-label="Facebook">
 
 <a href="https://www.instagram.com/redgieb/"
 target="_blank"
-rel="noopener noreferrer"
-aria-label="Instagram">
+rel="noopener noreferrer">
 
 <i class="fab fa-instagram"></i>
 
@@ -214,8 +590,7 @@ aria-label="Instagram">
 
 <a href="https://github.com/Zelus1014"
 target="_blank"
-rel="noopener noreferrer"
-aria-label="GitHub">
+rel="noopener noreferrer">
 
 <i class="fab fa-github"></i>
 
@@ -234,6 +609,54 @@ aria-label="GitHub">
 </div>
 
 </footer>
+
+
+
+<!-- QUIZ SCRIPT -->
+
+<script>
+
+function checkQuiz() {
+
+let score = 0;
+
+let answers = {
+
+q1: "a",
+q2: "c",
+q3: "b",
+q4: "b",
+q5: "a",
+q6: "a",
+q7: "a",
+q8: "b",
+q9: "b",
+q10: "a"
+
+};
+
+
+for (let question in answers) {
+
+let selected = document.querySelector(
+'input[name="' + question + '"]:checked'
+);
+
+if (selected && selected.value === answers[question]) {
+
+score++;
+
+}
+
+}
+
+
+document.getElementById("result").innerHTML =
+"You got " + score + " out of 10 questions correct!";
+
+}
+
+</script>
 
 
 </body>
